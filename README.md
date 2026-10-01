@@ -25,6 +25,6 @@ A = np.array([
 # The changes are applied in place, so if you want to keep the original matrix A unchanged, you must create a copy:
 # A_rand = A.copy()
 edgelist, n_link = from_adj_to_edgelist(A)
-A_rand, edgelist, n_link = WeST_optimized(A, edgelist, n_link, n_step=10_000)
+A_rand, edgelist, n_link = WeST(A, edgelist, n_link, n_step=10_000)
 
 ```
