@@ -11,7 +11,7 @@ The algorithm performs a Markov Chain Monte Carlo (MCMC) edge-switching process 
 
 ```python
 import numpy as np
-from west import from_adj_to_edgelist, WeST_optimized
+from west import from_adj_to_edgelist, WeST
 
 # Symmetric weighted adjacency matrix
 A = np.array([
